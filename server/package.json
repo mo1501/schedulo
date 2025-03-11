@@ -1,0 +1,23 @@
+{
+  "name": "schedulo-server",
+  "version": "1.0.0",
+  "description": "A sleek and minimal event scheduler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "NODE_ENV=production node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "author": "Mohamed Abdullahi",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0"
+  }
+}

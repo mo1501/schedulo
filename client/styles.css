@@ -1,0 +1,72 @@
+/* Import Roboto Serif font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; /* Base font size (1rem = 16px) */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Serif', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Typography with multiples of 16px */
+h1 { font-size: 3rem; } /* 48px */
+h2 { font-size: 2.5rem; } /* 40px */
+h3 { font-size: 2rem; } /* 32px */
+h4 { font-size: 1.5rem; } /* 24px */
+h5 { font-size: 1.25rem; } /* 20px */
+p, h6 { font-size: 1rem; } /* 16px */
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+
+main {
+    width: 100%;
+    max-width: 900px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+    h1 { font-size: 2.5rem; } /* Reduce for smaller screens */
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.75rem; }
+}
