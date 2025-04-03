@@ -5,12 +5,12 @@ NavBartemplate.innerHTML = `
 :host {
   display: block;
   width: 100%;
-  height: 1rem;
-
-  position: fixed;
+  height: fit-content;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 1000;
+  
 }
 
 .navbar-container{
@@ -20,6 +20,7 @@ NavBartemplate.innerHTML = `
     align-items: center;
     width: 100%;
     border-bottom: 5px solid #DCC37C;
+    background-color: white;
 
   }
 .logo-link{

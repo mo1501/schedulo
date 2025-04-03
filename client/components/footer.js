@@ -4,9 +4,7 @@ footerTemplate.innerHTML = `
     :host {
       display: block;
       width: 100%;
-      position: fixed;
-      bottom: 0;
-      left: 0;
+      
       background-color: #153243;
       color: #DCC37C;
       padding: 2rem 0;
