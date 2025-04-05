@@ -72,7 +72,6 @@ class HeroSection extends HTMLElement {
   constructor() {
     super();
 
-    this.showInfo = true;
 
     this.attachShadow({ mode: 'open' });
     this.shadowRoot.appendChild(HeroSectionTemplate.content.cloneNode(true));
